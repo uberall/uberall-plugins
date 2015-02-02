@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.uberall.plugins</groupId>
+  <artifactId>autoprefixer-asset-pipeline</artifactId>
+  <version>1.0.0</version>
+  <versioning>
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20150202115538</lastUpdated>
+  </versioning>
+</metadata>
