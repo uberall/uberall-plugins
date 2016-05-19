@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.uberall.plugins</groupId>
+  <groupId>org.grails.plugins</groupId>
   <artifactId>jesque-manager</artifactId>
   <versioning>
     <versions>
       <version>1.0.6-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20160519140804</lastUpdated>
+    <lastUpdated>20160519142945</lastUpdated>
   </versioning>
 </metadata>

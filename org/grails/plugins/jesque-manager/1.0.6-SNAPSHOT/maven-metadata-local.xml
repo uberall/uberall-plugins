@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.uberall.plugins</groupId>
+  <groupId>org.grails.plugins</groupId>
   <artifactId>jesque-manager</artifactId>
   <version>1.0.6-SNAPSHOT</version>
   <versioning>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20160519140804</lastUpdated>
+    <lastUpdated>20160519142945</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.0.6-SNAPSHOT</value>
-        <updated>20160519140804</updated>
+        <updated>20160519142945</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.0.6-SNAPSHOT</value>
-        <updated>20160519140804</updated>
+        <updated>20160519142945</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
