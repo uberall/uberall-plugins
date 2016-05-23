@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>elasticsearch</artifactId>
+  <packaging>zip</packaging>
+  <version>0.0.4.10-SNAPSHOT</version>
+  <name>ElasticSearch Grails Plugin</name>
+  <description>The revived Elasticsearch plugin for Grails.</description>
+  <url>http://noamt.github.io/elasticsearch-grails-plugin</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>10ne.org</name>
+    <url>http://www.10ne.org/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Noam Y. Tenne</name>
+      <email>noam@10ne.org</email>
+    </developer>
+    <developer>
+      <name>Noam Y. Tenne</name>
+      <email>noam@10ne.org</email>
+    </developer>
+    <developer>
+      <name>Marcos Carceles</name>
+      <email>marcos.carceles@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/noamt/elasticsearch-grails-plugin/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/noamt/elasticsearch-grails-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.elasticsearch</groupId>
+      <artifactId>elasticsearch-groovy</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.elasticsearch</groupId>
+      <artifactId>elasticsearch-mapper-attachments</artifactId>
+      <version>2.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.spatial4j</groupId>
+      <artifactId>spatial4j</artifactId>
+      <version>0.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vividsolutions</groupId>
+      <artifactId>jts</artifactId>
+      <version>1.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-datastore-gorm-plugin-support</artifactId>
+      <version>3.1.1.RELEASE</version>
+      <scope>provided</scope>
+      <exclusions />
+    </dependency>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-datastore-gorm</artifactId>
+      <version>3.1.1.RELEASE</version>
+      <scope>provided</scope>
+      <exclusions />
+    </dependency>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-datastore-core</artifactId>
+      <version>3.1.1.RELEASE</version>
+      <scope>provided</scope>
+      <exclusions />
+    </dependency>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-datastore-web</artifactId>
+      <version>3.1.1.RELEASE</version>
+      <scope>provided</scope>
+      <exclusions />
+    </dependency>
+  </dependencies>
+</project>
