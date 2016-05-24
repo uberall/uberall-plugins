@@ -2,12 +2,12 @@
 <metadata>
   <groupId>org.grails.plugins</groupId>
   <artifactId>jesque</artifactId>
-  <version>0.9.5-SNAPSHOT</version>
+  <version>0.9.6-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>0.9.5-SNAPSHOT</version>
-      <version>0.9.6-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20160524.093027</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20160524093027</lastUpdated>
   </versioning>
 </metadata>
