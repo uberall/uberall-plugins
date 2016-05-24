@@ -1,0 +1,19 @@
+<plugin name='jesque' version='0.9.5-SNAPSHOT' grailsVersion='2.0.0 &gt; *'>
+  <author>Michael Cameron</author>
+  <authorEmail>michael.e.cameron@gmail.com</authorEmail>
+  <title>Jesque - Redis backed job processing</title>
+  <description>Grails Jesque plug-in. Redis backed job processing</description>
+  <documentation>https://github.com/michaelcameron/grails-jesque</documentation>
+  <type>JesqueGrailsPlugin</type>
+  <resources>
+    <resource>DefaultJesqueConfig</resource>
+    <resource>grails.plugin.jesque.JesqueConfigurationService</resource>
+    <resource>grails.plugin.jesque.JesqueDelayedJobService</resource>
+    <resource>grails.plugin.jesque.JesqueDelayedJobThreadService</resource>
+    <resource>grails.plugin.jesque.JesqueSchedulerService</resource>
+    <resource>grails.plugin.jesque.JesqueSchedulerThreadService</resource>
+    <resource>grails.plugin.jesque.JesqueService</resource>
+    <resource>grails.plugin.jesque.ScheduledJobDaoService</resource>
+    <resource>grails.plugin.jesque.TriggerDaoService</resource>
+  </resources>
+</plugin>

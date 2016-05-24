@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>jesque</artifactId>
+  <packaging>zip</packaging>
+  <version>0.9.5-SNAPSHOT</version>
+  <name>Jesque - Redis backed job processing</name>
+  <description>Grails Jesque plug-in. Redis backed job processing</description>
+  <url>https://github.com/michaelcameron/grails-jesque</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Michael Cameron</name>
+      <email>michael.e.cameron@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Michael Cameron</name>
+      <email>michael.e.cameron@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Ted Naleid</name>
+      <email>contact@naleid.com</email>
+    </developer>
+    <developer>
+      <name>Philipp Eschenbach</name>
+      <email>peh@kunstsysteme.com</email>
+    </developer>
+    <developer>
+      <name>Florian Langenhahn</name>
+      <email>fln@kunstsysteme.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/michaelcameron/grails-jesque</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+      <version>2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.greghaines</groupId>
+      <artifactId>jesque</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>redis</artifactId>
+      <version>1.5.5</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>1.5</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
